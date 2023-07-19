@@ -22,7 +22,7 @@ class Listofemployee extends Component
         const { employees } = this.state;
 
   if (!employees) {
-    return <div>Loading...</div>; // Or show a loading indicator
+    return <div>Loading...</div>; // if no data is present, show loading
   }
 
         return(
